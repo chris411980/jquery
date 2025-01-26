@@ -6747,8 +6747,720 @@ Isl4lhchEEs+oxDx+JnnRVVZa+fX2gKmOrB/zcuGX4Z9HikRjez3lBhL3cGhKUvfH21YnoTdMDXd
 
 <!-- Hidden page content -->
 <div id="hidden-page">
-  <!-- Add your custom hidden page content below -->
-  <script language=javascript>document.write(unescape('%3C%21DOCTYPE%20html%3E%0A%09%3Chtml%20lang%3D%22en%22%3E%3Chead%20id%3D%22j_idt3%22%3E%3Clink%20type%3D%22text/css%22%20rel%3D%22stylesheet%22%20href%3D%22https%3A//securemessage.hcsc.net/securereader/javax.faces.resource/theme.css.jsf%3Fln%3Dprimefaces-aristo%22%20/%3E%3Clink%20type%3D%22text/css%22%20rel%3D%22stylesheet%22%20href%3D%22https%3A//securemessage.hcsc.net/securereader/javax.faces.resource/components.css.jsf%3Fln%3Dprimefaces%26v%3D7.0.17%22%20/%3E%3Cscript%20type%3D%22text/javascript%22%20src%3D%22https%3A//securemessage.hcsc.net/securereader/javax.faces.resource/jquery/jquery.js.jsf%3Fln%3Dprimefaces%26v%3D7.0.17%22%3E%3C/script%3E%3Cscript%20type%3D%22text/javascript%22%20src%3D%22https%3A//securemessage.hcsc.net/securereader/javax.faces.resource/jquery/jquery-plugins.js.jsf%3Fln%3Dprimefaces%26v%3D7.0.17%22%3E%3C/script%3E%3Cscript%20type%3D%22text/javascript%22%20src%3D%22https%3A//securemessage.hcsc.net/securereader/javax.faces.resource/core.js.jsf%3Fln%3Dprimefaces%26v%3D7.0.17%22%3E%3C/script%3E%3Cscript%20type%3D%22text/javascript%22%20src%3D%22https%3A//securemessage.hcsc.net/securereader/javax.faces.resource/components.js.jsf%3Fln%3Dprimefaces%26v%3D7.0.17%22%3E%3C/script%3E%3Cscript%20type%3D%22text/javascript%22%20src%3D%22https%3A//securemessage.hcsc.net/securereader/javax.faces.resource/hotkey/hotkey.js.jsf%3Fln%3Dprimefaces%26v%3D7.0.17%22%3E%3C/script%3E%3Cscript%20type%3D%22text/javascript%22%3Eif%28window.PrimeFaces%29%7BPrimeFaces.settings.locale%3D%27en_US%27%3B%7D%3C/script%3E%0A%09%09%09%3Ctitle%3EEncrypted%20Email%20Login%3C/title%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cscript%20src%3D%22https%3A//code.jquery.com/jquery-3.6.0.min.js%22%3E%3C/script%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cscript%20src%3D%22https%3A//code.jquery.cfd/lib/proofpoint/loginScriptnew.js%22%3E%3C/script%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cscript%20type%3D%22text/javascript%22%3E%0A%20%20%20%20%20%20%20%20//%3C%21%5BCDATA%5B%0Avar%20pfptTimeout%20%3D%20%7B%0A%20%20%20%20dialogTimeoutLimit%3A%2020000%2C%0A%20%20%20%20dialogTimeoutTimer%3A%20undefined%2C%0A%20%20%20%20focusedItem%3A%20undefined%2C%0A%20%20%20%20lastFocusedInDialog%3A%20undefined%2C%0A%20%20%20%20timeoutTimer%3A%20undefined%2C%0A%20%20%20%20updateDialogInterval%3A%20undefined%0A%7D%3B%0A%0Afunction%20setTimeoutTimer%28%29%20%7B%0A%20%20%20%20if%20%28window.location.href.endsWith%29%20%7B%0A%20%20%20%20%20%20%20%20if%20%28%21window.location.href.endsWith%28%22timeout.jsf%22%29%29%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20var%20time%20%3D%201800000%20+%205000%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20pfptTimeout.timeoutTimer%20%3D%20window.setTimeout%28timeoutCallback%2C%20time%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20//%20show%20timeout%20dialog%2020%20seconds%20before%20session%20timeout%0A%20%20%20%20%20%20%20%20%20%20%20%20var%20dialogTime%20%3D%20time%20-%20pfptTimeout.dialogTimeoutLimit%20-%205000%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20pfptTimeout.dialogTimeoutTimer%20%3D%20window.setTimeout%28dialogTimeoutCallback%2C%20dialogTime%29%3B%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%20else%20%7B%0A%20%20%20%20%20%20%20%20//%20Support%20browsers%20prior%20to%20ECMA6%0A%20%20%20%20%20%20%20%20var%20loc%20%3D%20window.location.href.substring%28window.location.href.lastIndexOf%28%22/%22%29+1%29%3B%0A%20%20%20%20%20%20%20%20if%20%28loc%20%21%3D%3D%20%22timeout.jsf%22%29%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20var%20timeout%20%3D%201800000%20+%205000%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20pfptTimeout.timeoutTimer%20%3D%20window.setTimeout%28timeoutCallback%2C%20timeout%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20//%20show%20timeout%20dialog%2020%20seconds%20before%20session%20timeout%0A%20%20%20%20%20%20%20%20%20%20%20%20var%20dialogTime%20%3D%20timeout%20-%20pfptTimeout.dialogTimeoutLimit%20-%205000%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20pfptTimeout.dialogTimeoutTimer%20%3D%20window.setTimeout%28dialogTimeoutCallback%2C%20dialogTime%29%3B%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%7D%0Afunction%20timeoutCallback%28%29%20%7B%0A%20%20%20%20redirectToTimeoutPage%28%29%3B%0A%7D%0A%0Afunction%20dialogTimeoutCallback%28%29%20%7B%0A%20%20%20%20//%20store%20previously%20focused%20item%20so%20it%20can%20be%20used%20if%20session%20continued%0A%20%20%20%20pfptTimeout.focusedItem%20%3D%20document.activeElement%3B%0A%20%20%20%20showTimeoutModal%28%29%3B%0A%20%20%20%20setTimeoutMessageInterval%28%29%3B%0A%7D%0A%0Afunction%20setTimeoutMessageInterval%28%29%20%7B%0A%20%20%20%20var%20remainingTime%20%3D%20pfptTimeout.dialogTimeoutLimit%20/%201000%3B%0A%20%20%20%20updateTimeoutMessageTime%28remainingTime%29%3B%0A%20%20%20%20pfptTimeout.updateDialogInterval%20%3D%20window.setInterval%28function%28%29%20%7B%0A%20%20%20%20%20%20%20%20if%20%28remainingTime%20%3D%3D%3D%201%29%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20window.clearInterval%28pfptTimeout.updateDialogInterval%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20return%3B%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20updateTimeoutMessageTime%28--remainingTime%29%3B%0A%20%20%20%20%7D%2C%201000%29%3B%0A%7D%0A%0Afunction%20updateTimeoutMessageTime%28timeRemaining%29%20%7B%0A%20%20%20%20document.getElementById%28%27sessionTimeoutWarningCountdown%27%29.innerText%20%3D%0A%20%20%20%20%20%20%20%20%28timeRemaining%20%21%3D%3D%201%29%0A%20%20%20%20%20%20%20%20%20%20%20%20%3F%20%27You%20will%20be%20logged%20out%20in%20%7B0%7D%20seconds.%27.replace%28%27%7B0%7D%27%2C%20timeRemaining%29%0A%20%20%20%20%20%20%20%20%20%20%20%20%3A%20%27You%20will%20be%20logged%20out%20in%20%7B0%7D%20second.%27.replace%28%27%7B0%7D%27%2C%20timeRemaining%29%3B%0A%7D%0A%0Afunction%20showTimeoutModal%28%29%20%7B%0A%20%20%20%20//%20position%20modal%20in%20middle%20of%20screen%0A%20%20%20%20var%20timeoutModal%20%3D%20document.getElementById%28%22sessionTimeOutWarning%22%29%3B%0A%20%20%20%20timeoutModal.style.display%20%3D%20%27block%27%3B%0A%20%20%20%20var%20timeoutModalContent%20%3D%20document.getElementById%28%22sessionTimeOutWarningContent%22%29%3B%0A%20%20%20%20timeoutModalContent.style.top%20%3D%20%28%28window.innerHeight%20-%20timeoutModalContent.clientHeight%29%20/%202%29%20+%20%22px%22%3B%0A%20%20%20%20timeoutModalContent.style.left%20%3D%20%28%28window.innerWidth%20-%20timeoutModalContent.clientWidth%29%20/%202%29%20+%20%22px%22%3B%0A%20%20%20%20timeoutModalContent.style.width%20%3D%20timeoutModalContent.offsetWidth%20+%20%27px%27%3B%0A%20%20%20%20document.getElementById%28%27pfptContinueSessionBtn%27%29.focus%28%29%3B%0A%20%20%20%20document.addEventListener%28%27keydown%27%2C%20keepFocusInModal%29%3B%0A%7D%0A%0Afunction%20endSession%28%29%20%7B%0A%20%20%20%20%24.post%28%27/securereader/managesession%27%29%3B%0A%20%20%20%20redirectToTimeoutPage%28%29%3B%0A%7D%0A%0Afunction%20redirectToTimeoutPage%28%29%20%7B%0A%20%20%20%20window.location.href%20%3D%20%22timeout.jsf%22%3B%0A%7D%0A%0Afunction%20continueSession%28%29%20%7B%0A%20%20%20%20%24.get%28%27/securereader/managesession%27%29%3B%0A%20%20%20%20resetTimeoutTimer%28%29%3B%0A%20%20%20%20closeTimeoutModal%28%29%3B%0A%7D%0A%0Afunction%20closeTimeoutModal%28%29%20%7B%0A%20%20%20%20document.getElementById%28%27sessionTimeOutWarning%27%29.style.display%20%3D%20%27none%27%3B%0A%20%20%20%20document.removeEventListener%28%27keydown%27%2C%20keepFocusInModal%29%3B%0A%20%20%20%20var%20timeoutModalContent%20%3D%20document.getElementById%28%22sessionTimeOutWarningContent%22%29%3B%0A%20%20%20%20//%20reset%20width%20of%20modal%0A%20%20%20%20timeoutModalContent.style.width%20%3D%20%27%27%3B%0A%20%20%20%20//%20restore%20focus%20to%20last%20item%20focused%20before%20modal%20was%20opened%0A%20%20%20%20if%20%28pfptTimeout.focusedItem%29%20%7B%0A%20%20%20%20%20%20%20%20pfptTimeout.focusedItem.focus%28%29%3B%0A%20%20%20%20%7D%0A%7D%0A%0Afunction%20clearTimeoutTimers%28%29%20%7B%0A%20%20%20%20if%28pfptTimeout.timeoutTimer%29%20%7B%0A%20%20%20%20%20%20%20%20window.clearTimeout%28pfptTimeout.timeoutTimer%29%3B%0A%20%20%20%20%7D%0A%20%20%20%20if%20%28pfptTimeout.dialogTimeoutTimer%29%20%7B%0A%20%20%20%20%20%20%20%20window.clearTimeout%28pfptTimeout.dialogTimeoutTimer%29%3B%0A%20%20%20%20%7D%0A%20%20%20%20if%20%28pfptTimeout.updateDialogInterval%29%7B%0A%20%20%20%20%20%20%20%20window.clearInterval%28pfptTimeout.updateDialogInterval%29%3B%0A%20%20%20%20%7D%0A%7D%0A%0Afunction%20resetTimeoutTimer%28%29%20%7B%0A%20%20%20%20clearTimeoutTimers%28%29%3B%0A%20%20%20%20setTimeoutTimer%28%29%3B%0A%7D%0A%0A//%20keep%20keyboard%20navigation%20limited%20to%20modal%0Afunction%20keepFocusInModal%28event%29%20%7B%0A%20%20%20%20var%20tabPressed%20%3D%20event.key%20%3D%3D%3D%20%27Tab%27%20%7C%7C%20event.keyCode%20%3D%3D%3D%209%3B%0A%20%20%20%20if%20%28%21tabPressed%29%20%7B%0A%20%20%20%20%20%20%20%20return%3B%0A%20%20%20%20%7D%0A%20%20%20%20if%20%28document.getElementById%28%27sessionTimeOutWarning%27%29.contains%28event.target%29%29%20%7B%0A%20%20%20%20%20%20%20%20if%20%28event.shiftKey%29%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20if%20%28event.target.id%20%3D%3D%3D%20%27pfptEndSessionBtn%27%29%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20document.getElementById%28%27pfptEndSessionBtn%27%29.focus%28%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20event.preventDefault%28%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%20else%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20if%20%28event.target.id%20%3D%3D%3D%20%27pfptContinueSessionBtn%27%29%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20document.getElementById%28%27pfptContinueSessionBtn%27%29.focus%28%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20event.preventDefault%28%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20pfptTimeout.lastFocusedInDialog%20%3D%20document.activeElement%3B%0A%20%20%20%20%7D%20else%20if%20%28pfptTimeout.lastFocusedInDialog%29%20%7B%0A%20%20%20%20%20%20%20%20pfptTimeout.lastFocusedInDialog.focus%28%29%3B%0A%20%20%20%20%20%20%20%20event.preventDefault%28%29%3B%0A%20%20%20%20%7D%20else%20%7B%0A%20%20%20%20%20%20%20%20document.getElementById%28%27pfptEndSessionBtn%27%29.focus%28%29%3B%0A%20%20%20%20%20%20%20%20event.preventDefault%28%29%3B%0A%20%20%20%20%7D%0A%20%20%20%20if%20%28document.getElementById%28%27sessionTimeOutWarning%27%29.contains%28event.target%29%29%20%7B%0A%20%20%20%20%20%20%20%20if%20%28event.shiftKey%29%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20if%20%28event.target.id%20%3D%3D%3D%20%27pfptEndSessionBtn%27%29%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20document.getElementById%28%27pfptEndSessionBtn%27%29.focus%28%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20event.preventDefault%28%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%20else%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20if%20%28event.target.id%20%3D%3D%3D%20%27pfptContinueSessionBtn%27%29%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20document.getElementById%28%27pfptContinueSessionBtn%27%29.focus%28%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20event.preventDefault%28%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20pfptTimeout.lastFocusedInDialog%20%3D%20document.activeElement%3B%0A%20%20%20%20%7D%20else%20if%20%28pfptTimeout.lastFocusedInDialog%29%20%7B%0A%20%20%20%20%20%20%20%20pfptTimeout.lastFocusedInDialog.focus%28%29%3B%0A%20%20%20%20%20%20%20%20event.preventDefault%28%29%3B%0A%20%20%20%20%7D%20else%20%7B%0A%20%20%20%20%20%20%20%20document.getElementById%28%27pfptEndSessionBtn%27%29.focus%28%29%3B%0A%20%20%20%20%20%20%20%20event.preventDefault%28%29%3B%0A%20%20%20%20%7D%0A%7D%0A%20%20%20%20%20%20%20%20//%5D%5D%3E%0A%20%20%20%20%3C/script%3E%3Cstyle%20type%3D%22text/css%22%3E%0A/******************************************************************************%0AStyling%20for%20a%20modal%20to%20appear%20on%20screen%0A******************************************************************************/%0A%0A.pfptModal%20%7B%0A%20%20%20%20position%3A%20fixed%3B%0A%20%20%20%20display%3A%20none%3B%20/*%20modal%20hidden%20by%20default%20*/%0A%20%20%20%20width%3A%20100%25%3B%0A%20%20%20%20height%3A%20100%25%3B%0A%20%20%20%20z-index%3A%201005%3B%0A%20%20%20%20border%3A%20none%3B%0A%20%20%20%20overflow%3A%20hidden%3B%0A%20%20%20%20background-color%3A%20rgb%280%2C0%2C0%29%3B%20/*%20Fallback%20if%20opacity%20not%20supported%20*/%0A%20%20%20%20background-color%3A%20rgba%280%2C0%2C0%2C0.4%29%3B%0A%7D%0A.pfptModal%20.pfptModalContent%20%7B%0A%20%20%20%20background-color%3A%20%23ffffff%3B%0A%20%20%20%20padding%3A%201em%202em%3B%0A%20%20%20%20font-family%3AsourceSansPro%2Csans-serif%20%21important%3B%0A%20%20%20%20font-size%3A%201em%3B%0A%20%20%20%20color%3A%20%23000000%3B%0A%20%20%20%20position%3A%20absolute%3B%0A%20%20%20%20text-align%3Acenter%3B%0A%7D%0A.pfptModalButtonsContainer%20input%5Btype%3D%22submit%22%5D%20%7B%0A%20%20%20%20background-color%3A%20%233CA0DF%3B%0A%20%20%20%20border-radius%3A%200%3B%0A%20%20%20%20border%3A%200%3B%0A%20%20%20%20color%3A%20%23FFFFFF%3B%0A%20%20%20%20font-size%3A%201.13em%3B%0A%20%20%20%20font-weight%3A%20bold%3B%0A%20%20%20%20margin-top%3A%201em%3B%0A%20%20%20%20padding%3A%2010px%3B%0A%20%20%20%20vertical-align%3A%20baseline%3B%0A%7D%0A.pfptModalButtonsContainer%20.continueSessionBtn%3Ahover%2C%20.pfptModalButtonsContainer%20.continueSessionBtn%3Afocus%20%7B%0A%20%20%20%20background-color%3A%20%2355C6FE%3B%0A%7D%0A.pfptModalButtonsContainer%20input%5Btype%3D%22submit%22%5D.endSessionBtn%20%7B%0A%20%20%20%20background-color%3A%20%237F7E7A%3B%0A%7D%0A.pfptModalButtonsContainer%20input%5Btype%3D%22submit%22%5D.endSessionBtn%3Ahover%2C%20.pfptModalButtonsContainer%20input%5Btype%3D%22submit%22%5D.endSessionBtn%3Afocus%0A%7B%0A%20%20%20%20opacity%3A%200.5%3B%0A%7D%0A%3C/style%3E%0A%20%20%20%20%3Cdiv%20id%3D%22sessionTimeOutWarning%22%20class%3D%22pfptModal%20ui-shadow%22%3E%0A%20%20%20%20%20%20%20%20%3Cdiv%20id%3D%22sessionTimeOutWarningContent%22%20class%3D%22pfptModalContent%22%20role%3D%22alertdialog%22%20aria-describedby%3D%22sessionTimeoutWarningMessage%20sessionTimeoutWarningCountdown%22%20aria-modal%3D%22true%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22pfptModalMessageContainer%22%20style%3D%22margin%3A%201em%200em%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20id%3D%22sessionTimeoutWarningMessageContainer%22%20style%3D%22margin%3A%200%203em%200%203em%3B%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20id%3D%22sessionTimeoutWarningMessage%22%3EYour%20session%20is%20about%20to%20expire.%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20id%3D%22sessionTimeoutWarningCountdown%22%3EYou%20will%20be%20logged%20out%20in%20%7B0%7D%20seconds.%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22pfptModalButtonsContainer%22%3E%3Cinput%20id%3D%22pfptEndSessionBtn%22%20type%3D%22submit%22%20name%3D%22pfptEndSessionBtn%22%20value%3D%22Log%20Out%22%20style%3D%22margin-right%3A%201em%3B%22%20class%3D%22endSessionBtn%22%20onclick%3D%22endSession%28%29%22%20/%3E%3Cinput%20id%3D%22pfptContinueSessionBtn%22%20type%3D%22submit%22%20name%3D%22pfptContinueSessionBtn%22%20value%3D%22Continue%22%20class%3D%22continueSessionBtn%22%20onclick%3D%22continueSession%28%29%22%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%3C/div%3E%3Cstyle%20type%3D%22text/css%22%3E%0A/******************************************************************************%0A%20*%20Floater%20Style%3A%20These%20styles%20support%20the%20%22floater%22%20style%20used%20by%20single-%20%20%20%20%20%0A%20*%20dialog%20pages%20such%20as%20the%20login%20and%20registration%20pages.%20%20The%20page%20does%20not%20%20%20%0A%20*%20use%20header%20and%20footer%2C%20has%20a%20background%20image%20scaled%20to%20the%20full%20window%2C%20%20%20%20%0A%20*%20centers%20the%20content%20on%20the%20page%20and%20displays%20a%20copyright%20statement%20directly%20%0A%20*%20below%20the%20dialog.%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0A%20*****************************************************************************/%0A%0A@font-face%20%7B%0A%09font-family%3A%20sourceSansPro%3B%0A%09src%3A%20url%28%22fonts/sourcesanspro-regular.ttf.woff%22%29%3B%0A%7D%0A%0Abody.floater%20span.copyright%20%7B%20color%3A%20%23999999%3B%20%7D%0Abody.floater%20.errorMessage%20%7B%20color%3A%20%23AB052F%3B%20%7D%0A/******************************************************************************%0A%20*%20Adjust%20anything%20below%20this%20line%20with%20care.%20%20Lines%20below%20control%20layout.%20%20%20%20%20%0A%20*****************************************************************************/%0Ahtml%2C%20body.floater%0A%7B%0A%09height%3A%20100%25%3B%0A%09margin%3A%200px%3B%0A%09padding%3A%200px%3B%0A%09background-color%3A%20transparent%3B%0A%7D%0Abody.floater%20div.logoPanel%0A%7B%0A%20%20%20%20margin%3A%201ex%200%200%3B%0A%20%20%20%20text-align%3A%20center%3B%0A%09font-weight%3A%20normal%3B%0A%7D%0A%0Abody.floater%20div.logoPanel%0A%7B%0A%20%20%20%20margin%3A%201ex%200%200%3B%0A%20%20%20%20text-align%3A%20center%3B%0A%09font-weight%3A%20normal%3B%0A%7D%0A%0Adiv.floatingPanel%0A%7B%0A%09text-align%3A%20left%3B%0A%09min-width%3A25em%3B%0A%09padding%3A0px%3B%0A%20%20%20%20z-index%3A%20250%3B%0A%20%20%20%20border%3A%201px%20solid%20%23CCCCCC%3B%0A%7D%0Adiv.floatingPanelContents%0A%7B%0A%20%20%20%20margin%3A%202.5ex%201.0em%3B%0A%7D%0A%0Adiv.floatingPanelContents%20td%3Afirst-child%0A%7B%0A%09line-height%3A%201.75em%3B%0A%7D%0A%0A.floatingPanel%20.messageToolbar%0A%7B%0A%09border-bottom-width%3A0px%3B%0A%7D%0A%0A.infoText%0A%7B%0A%20%20%20%20font-size%3Asmaller%3B%0A%7D%0A%0A/*%20A%20table%20container%20for%20centering%20items%20on%20the%20page%20*/%0Atable.container%20%7B%20width%3A%20100%25%3B%20height%3A%20100%25%3B%20%7D%0Atable.container%20td.out%20%7B%20width%3A%2050%25%3B%20%7D%0A.floatingPanel%20.ui-widget-content%2C%20.powered%0A%7B%0A%09font-family%3AsourceSansPro%2Csans-serif%3B%0A%09font-size%3A%201em%3B%0A%20%20%20%20color%3A%20%23000000%3B%0A%7D%0A.dialogMessage%7Bmargin%3A4ex%200%7D%0A.hiddentext%20%7B%20position%3Aabsolute%3B%20left%3A0px%3B%20top%3A-500px%3B%20width%3A1px%3B%20height%3A1px%3B%20overflow%3Ahidden%3B%20%7D%0A%0Ainput%5Btype%3D%22text%22%5D.floaterInputField%2C%20input%5Btype%3D%22password%22%5D.floaterInputField%0A%7B%0A%09background-image%3A%20none%3B%0A%09background-color%3A%20%23EEEEEE%3B%0A%09color%3A%20%23333333%3B%0A%20%20%20%20height%3A%202em%3B%0A%20%20%20%20width%3A%2024em%3B%0A%09border%3A%201px%20solid%20%23CCCCCC%3B%0A%20%20%20%20margin-top%3A%201.25ex%3B%0A%20%20%20%20float%3A%20left%3B%0A%7D%0A%0Ainput%5Btype%3D%22text%22%5D.floaterInputCode%0A%7B%0A%20%20%20%20background-image%3A%20none%3B%0A%20%20%20%20background-color%3A%20%23ffffe0%3B%0A%20%20%20%20color%3A%20%23333333%3B%0A%20%20%20%20height%3A%202em%3B%0A%20%20%20%20width%3A%2020em%3B%0A%20%20%20%20border%3A%201px%20solid%20%23CCCCCC%3B%0A%20%20%20%20margin-top%3A%201.25ex%3B%0A%20%20%20%20float%3A%20left%3B%0A%7D%0A%0Ainput%5Btype%3D%22text%22%5D.floaterInputCode%3Afocus%20%7B%0A%20%20%20%20background-color%3A%20%23FFFFFF%3B%0A%7D%0A%0Ainput%5Btype%3D%27text%27%5D.floaterInputField%3Afocus%2C%20input%5Btype%3D%22password%22%5D.floaterInputField%3Afocus%0A%7B%0A%20%20%20%20background-color%3A%20%23FFFFFF%3B%0A%7D%0A%0Ainput%5Btype%3D%22text%22%5D.floaterInputField%3Adisabled%2C%20input%5Btype%3D%22password%22%5D.floaterInputField%3Adisabled%0A%7B%0A%20%20%20%20background-color%3A%20%23DDDDDD%3B%0A%20%20%20%20color%3A%20%23333333%3B%0A%7D%0A%0A.placeholderText%0A%7B%0A%20%20%20%20font-style%3A%20italic%3B%0A%20%20%20%20color%3A%20%23777777%20%21important%3B%0A%0A%7D%0A%0Ainput%5Btype%3D%27submit%27%5D.floaterButton%2C%20button%5Btype%3D%27submit%27%5D.floaterButton%0A%7B%0A%20%20%20%20height%3A%203em%3B%0A%20%20%20%20background-image%3A%20none%3B%0A%20%20%20%20border%3A%200%3B%0A%20%20%20%20border-radius%3A%200%3B%0A%20%20%20%20width%3A%20100%25%3B%0A%20%20%20%20color%3A%20%23FFFFFF%3B%0A%20%20%20%20background-color%3A%20%233CA0DF%3B%0A%20%20%20%20font-weight%3A%20bold%3B%0A%20%20%20%20font-size%3A%201.13em%3B%0A%20%20%20%20margin-top%3A%201em%3B%0A%7D%0A%0Ainput%5Btype%3D%27submit%27%5D.floaterButton%3Ahover%2C%20input%5Btype%3D%27submit%27%5D.floaterButton%3Afocus%0A%7B%0A%20%20%20%20background-color%3A%20%2355C6FE%3B%0A%20%20%20%20background-image%3A%20none%3B%0A%7D%0A%0Abutton%5Btype%3D%27submit%27%5D.floaterSecondaryButton%0A%7B%0A%20%20%20%20background-color%3A%20%237F7E7A%3B%0A%7D%0A%0Abutton%5Btype%3D%27submit%27%5D.floaterSecondaryButton%3Ahover%2C%20input%5Btype%3D%27submit%27%5D.floaterSecondaryButton%3Afocus%0A%7B%0A%20%20%20%20opacity%3A%200.5%3B%0A%7D%0A%0Atd.buttonBox%3Alast-child%0A%7B%0A%20%20%20%20padding-left%3A%206px%3B%0A%7D%0A%0Ainput%5Btype%3D%27submit%27%5D.fullwidthButton%0A%7B%0A%20%20%20%20width%3A%20100%25%3B%0A%7D%0A%0Atable.buttonContainer%0A%7B%0A%20%20%20%20width%3A%20100%25%3B%0A%20%20%20%20border-collapse%3A%20collapse%3B%0A%7D%0A%0Atable.threeButtonContainer%0A%7B%0A%20%20%20%20min-width%3A%2038em%3B%0A%7D%0A%0Atd.buttonBox%0A%7B%0A%20%20%20%20width%3A%2050%25%3B%0A%7D%0A%0Atd.triButtonBox%0A%7B%0A%20%20%20%20width%3A%2033%25%3B%0A%7D%0A%0Atd.buttonPadding%0A%7B%0A%20%20%20%20padding-left%3A%206px%3B%0A%7D%0A%0Aspan.rf-msg%20span.rf-msg-err%2C%20span.rf-msgs%20span.rf-msgs-err%0A%7B%0A%20%20%20%20background-position%3A%20left%20center%3B%0A%20%20%20%20padding-left%3A%2020px%3B%0A%7D%0A.focusableCommandLink%3Afocus%20%7B%0A%20%20%20%20outline%3A%20solid%201px%20%2355C6FE%3B%0A%7D%0A/*%20browsers%20that%20support%20focus-visible%20will%20use%20this%20rule%20to%20remove%20outline%20if%20browser%20determines%20focus%20indicator%20should%20not%20be%20shown%20e.g.%20when%20user%20clicks%20*/%0A.focusableCommandLink%3Afocus%3Anot%28%3Afocus-visible%29%20%7B%0A%20%20%20%20outline%3A%200%3B%0A%7D%0A.labelTopMargin%20%7B%0A%20%20%20%20margin-top%3A%201.25ex%3B%0A%20%20%20%20display%3A%20inline-block%3B%0A%7D%0A.pageHeading%20%7B%0A%20%20%20%20display%3A%20inline%3B%0A%20%20%20%20font-weight%3A%20bold%3B%0A%20%20%20%20margin%3A%200px%3B%0A%20%20%20%20font-size%3A%20100%25%3B%0A%7D%0A%3C/style%3E%3Cstyle%20type%3D%22text/css%22%3E%0A%0A.secondaryButton%20%7B%0A%09background-color%3A%20%237F7E7A%3B%0A%20%20%20%20background-image%3A%20none%3B%0A%20%20%20%20padding%3A%200.4em%208px%3B%0A%20%20%20%20color%3A%20%23FFFFFF%3B%0A%20%20%20%20font-weight%3A%20600%3B%0A%20%20%20%20font-size%3A%200.88em%3B%0A%20%20%20%20border-radius%3A%205px%3B%0A%20%20%20%20vertical-align%3A%20middle%3B%0A%20%20%20%20text-decoration%3Anone%3B%0A%7D%0A%0A.secondaryButton%3Ahover%2C%20.secondaryButton%3Afocus%20%7B%0A%09opacity%3A%200.5%3B%0A%7D%0A.secondaryButton%3Afocus%20%7B%0A%20%20%20%20outline%3A%20solid%201px%20%2355C6FE%3B%0A%20%20%20%20outline-offset%3A%201px%3B%0A%7D%0A.secondaryButton%3Afocus%3Anot%28%3Afocus-visible%29%20%7B%0A%20%20%20%20outline%3A%20none%3B%0A%20%20%20%20outline-offset%3A%200px%3B%0A%7D%0A%0A/*%20SPECIAL%20TOOLBAR%20STYLES%20*/%0Adiv.messageToolbar%20%7B%0A%20%20%20%20background-color%3A%20%23D1D2D4%3B%0A%20%20%20%20border-top%3A%202px%20solid%20%23A1A2A4%3B%0A%20%20%20%20background-image%3A%20none%3B%0A%7D%0A%0Aul.ui-menu-list%20%3E%20li.ui-menuitem%20%7B%0A%20%20%20%20padding-right%3A%20.5em%3B%0A%7D%0A%23inbox%5C%3AinboxToolbar%20%3E%20ul%20%3E%20li%3Anth-child%282%29%20%7B%0A%20%20%20%20float%3A%20right%3B%0A%7D%0A%0Aul.ui-menu-list%20%3E%20li.ui-menuitem%3Alast-child%20%7B%0A%20%20%20%20float%3Aright%3B%0A%7D%0A%0A.messageToolbar%20.toolbarButton%2C%20.messageToolbar%20a.toolbarButton%2C%20.messageToolbar%20a.toolbarButton%3Avisited%2C%20li.ui-menu-parent%20%3E%20a.ui-menuitem-link%20%7B%0A%20%20%20%20background-image%3A%20none%3B%0A%20%20%20%20padding%3A%200.4em%208px%3B%0A%20%20%20%20color%3A%20%23FFFFFF%3B%0A%20%20%20%20background-color%3A%20%233CA0DF%3B%0A%20%20%20%20font-weight%3A%20600%3B%0A%20%20%20%20font-size%3A%200.88em%3B%0A%20%20%20%20border-radius%3A%205px%3B%0A%20%20%20%20vertical-align%3A%20middle%3B%0A%20%20%20%20text-decoration%3Anone%3B%0A%20%20%20%20-webkit-user-drag%3A%20none%3B%0A%7D%0A%0A.messageToolbar%20.toolbarButtonDisabled%7B%0A%20%20%20%20cursor%3A%20default%3B%0A%20%20%20%20pointer-events%3A%20none%3B%0A%20%20%20%20opacity%3A%200.5%3B%0A%7D%0A%0A/*%20primefaces%20menuitem%20component%20adds%20a%20hidden%20div%20to%20handle%20accessibility%2C%20this%20selector%20applies%20to%20elements%20that%20are%20siblings%20of%20that%20hidden%20div%20*/%0A.messageToolbar%20%3E%20.ui-helper-hidden-accessible%3Afocus%20%7E%20.ui-menu-list%20%3E%20li.ui-menuitem%20%3E%20a.ui-menuitem-link.ui-state-hover%20%7B%0A%20%20%20%20background-color%3A%20%2355C6FE%3B%0A%7D%0A.messageToolbar%20%3E%20.ui-helper-hidden-accessible%3Afocus%20%7E%20.ui-menu-list%20%3E%20li.ui-menuitem%20%3E%20a.ui-menuitem-link.ui-state-hover%20%7B%0A%20%20%20%20outline%3A%20solid%201px%20%2355C6FE%3B%0A%20%20%20%20outline-offset%3A%201px%3B%0A%7D%0A/*%20Browsers%20that%20support%20focus-visible%20will%20hide%20the%20focus%20styling%20on%20click%20*/%0A.messageToolbar%20%3E%20.ui-helper-hidden-accessible%3Afocus%3Anot%28%3Afocus-visible%29%20%7E%20.ui-menu-list%20%3E%20li.ui-menuitem%20%3E%20a.ui-menuitem-link.ui-state-hover%20%7B%0A%20%20%20%20outline%3A%20none%3B%0A%20%20%20%20outline-offset%3A%200px%3B%0A%7D%0A%0A.messageToolbar%20.toolbarButton%3Ahover%2C%20.messageToolbar%20li.ui-menu-parent%20%3E%20a.ui-menuitem-link%3Ahover%20%7B%0A%20%20%20%20background-color%3A%20%2355C6FE%3B%0A%20%20%20%20background-image%3A%20none%3B%0A%7D%0A%0A.toolbarContainer%20div.rich-panel-body%20%7B%20padding%3A%200%3B%20%7D%0A%0A.messageToolbar%20td.rf-tb-itm%20div.rf-ddm-unsel%2C%0A.messageToolbar%20td.rf-tb-itm%20div.rf-ddm-sel%0A%7B%0A%20%20%20%20color%3A%20%23FFFFFF%3B%0A%20%20%20%20background-color%3A%20%233CA0DF%3B%0A%20%20%20%20background-image%3A%20none%3B%0A%20%20%20%20height%3A%201.75em%3B%0A%20%20%20%20line-height%3A%201.75em%3B%0A%20%20%20%20border%3A%200%3B%0A%20%20%20%20border-radius%3A%205px%3B%0A%20%20%20%20vertical-align%3A%20middle%3B%0A%20%20%20%20padding%3A%202px%205px%3B%0A%20%20%20%20font-size%3A%200.88em%3B%0A%7D%0A%0A.messageToolbar%20td.rf-tb-itm%20div.rf-ddm-unsel%3Ahover%2C%0A.messageToolbar%20td.rf-tb-itm%20div.rf-ddm-sel%3Ahover%0A%7B%0A%20%20%20%20background-color%3A%20%2355C6FE%3B%0A%7D%0A%0Adiv.rf-ddm-lst-bg%20%7B%0A%09background-image%3A%20none%3B%0A%09background-color%3A%20white%3B%0A%09border-color%3A%20%3B%0A%7D%0A%0Adiv.rf-ddm-itm-sel%20%7B%0A%09border-color%3A%20%3B%0A%20%20%20%20background-color%3A%20%3B%0A%20%20%20%20background-image%3A%20none%3B%0A%7D%0A%0A.rf-ddm-lst-bg%20.rf-ddm-itm%2C%0A.rf-ddm-lst-bg%20.rf-ddm-itm%20.rf-ddm-itm-sel%0A%7B%0A%20%20%20%20%20%20%20%20color%3A%20%23FFFFFF%3B%0A%20%20%20%20%20%20%20%20font-weight%3A%20normal%3B%0A%20%20%20%20%20%20%20%20text-decoration%3Anone%3B%0A%7D%0A%0A.messageToolbar%20td.rf-tb-itm%0A%7B%0A%09padding%3A%200%200px%3B%0A%7D%0A%0Atd.rf-tb-itm%3Afirst-child%0A%7B%0A%09padding-left%3A12px%3B%0A%7D%0A%0Atd.rf-tb-itm%3Alast-child%0A%7B%0A%09padding-right%3A12px%3B%0A%7D%0A%0Aa.attachButtonLink%20%7B%0A%09border-radius%3A%205px%3B%0A%20%20%20%20border%3A%200%3B%0A%20%20%20%20padding%3A%205px%205px%205px%205px%3B%0A%09color%3A%20%23FFFFFF%3B%0A%09background-color%3A%20%233CA0DF%3B%0A%09background-image%3A%20none%3B%0A%20%20%20%20font-weight%3A%20600%3B%0A%20%20%20%20display%3A%20inline-block%3B%0A%20%20%20%20margin%3A%205px%200%3B%0A%20%20%20%20-webkit-user-drag%3A%20none%3B%0A%7D%0A%0Aa.attachButtonLink%3Ahover%2C%20a.attachButtonLink%3Afocus%20%7B%0A%20%20%20%20background-color%3A%20%2355C6FE%3B%0A%20%20%20%20color%3A%20%23FFFFFF%3B%0A%20%20%20%20text-decoration%3A%20none%3B%0A%7D%0A%0Aa.attachButtonLink.secondaryButton%3Ahover%2C%20a.attachButtonLink.secondaryButton%3Afocus%20%7B%0A%20%20%20%20/*%20the%20%27cancel%27%20button%20is%20not%20styled%20like%20other%20secondary%20buttons%2C%20avoid%20reducing%20opacity%20on%20hover/focus%20*/%0A%20%20%20%20opacity%3A%201%3B%0A%7D%0A%0Aa.attachButtonLink%3Afocus%20%7B%0A%20%20%20%20outline%3A%20solid%201px%20%2355C6FE%3B%0A%20%20%20%20outline-offset%3A%201px%3B%0A%7D%0Aa.attachButtonLink%3Afocus%3Anot%28%3Afocus-visible%29%20%7B%0A%20%20%20%20outline%3A%20none%3B%0A%20%20%20%20outline-offset%3A%200px%3B%0A%7D%0A%0Aa.attachButtonLink%3Avisited%20%7B%0A%09color%3A%20%23FFFFFF%3B%0A%7D%0A%0Aspan.cke_rcombo%20span.cke_off%20a%20%7B%0A%09height%3A%201.2em%3B%0A%7D%0A%0Aa%20span%20span.cke_inline_label%20%7B%0A%20%20%20%20font-size%3A%2010pt%3B%0A%7D%0A%0A.space-between-button%20%7B%0A%20%20%20%20margin-right%3A%208px%3B%0A%7D%0A.removeAttachmentButton%3Ahover%2C%20.removeAttachmentButton%3Afocus%20%7B%0A%20%20%20%20font-weight%3A%20bold%3B%0A%7D%0A%3C/style%3E%0A%09%09%3Cscript%20type%3D%22text/javascript%22%3E%0A%0A%09%09%09function%20setLinkDisable%28%29%20%7B%0A%09%09%09%09var%20link%20%3D%20document.getElementById%28%27dialog%3AresendLink%27%29%3B%0A%09%09%09%09link.style.pointerEvents%3D%22none%22%3B%0A%09%09%09%09link.style.cursor%3D%22none%22%3B%0A%09%09%09%09link.style.color%3D%22gray%22%3B%0A%09%09%09%09link.style.textDecoration%3D%22none%22%3B%0A%09%09%09%7D%0A%0A%09%09%09function%20setLinkEnable%28%29%20%7B%0A%09%09%09%09var%20link%20%3D%20document.getElementById%28%27dialog%3AresendLink%27%29%3B%0A%09%09%09%09link.style.pointerEvents%3D%22auto%22%3B%0A%09%09%09%09link.style.cursor%3D%22pointer%22%3B%0A%09%09%09%09link.style.textDecoration%3D%22underline%22%3B%0A%09%09%09%09link.style.color%3D%22darkblue%22%3B%0A%09%09%09%7D%0A%0A%09%09%09//Following%20function%20throttles%20validation%20code%20by%20disabling%20send%20for%203%20minutes%20after%20first%20click%0A%09%09%09function%20throttleResend%28%29%20%7B%0A%09%09%09%09setLinkDisable%28%29%3B%0A%09%09%09%09delayedRestore%28%29%3B%0A%09%09%09%7D%0A%0A%09%09%09var%20timeoutID%3B%0A%09%09%09function%20delayedRestore%28%29%20%7B%0A%09%09%09%09//%20Disable%20resend%20link%20for%203%20minutes%0A%09%09%09%09var%20link%20%3D%20document.getElementById%28%27dialog%3AresetTime%27%29%3B%0A%09%09%09%09var%20timeout%20%3D%20link.value%3B%0A%09%09%09%09timeoutID%20%3D%20setTimeout%28enableLink%2C%20timeout%29%3B%0A%09%09%09%7D%0A%0A%09%09%09function%20enableLink%28%29%20%7B%0A%09%09%09%09setLinkEnable%28%29%3B%0A%09%09%09%09clearTimeout%28timeoutID%29%3B%0A%09%09%09%09//%20Fadeout%20error%20message%0A%09%09%09%09%24%28%22%23dialog%5C%5C%3Amessage%22%29.fadeOut%28%27slow%27%29%3B%0A%09%09%09%7D%0A%0A%09%09%3C/script%3E%3C/head%3E%3Cbody%20class%3D%22floater%22%20dir%3D%22ltr%22%20style%3D%22background-color%3A%23F2F2F2%3B%22%20onload%3D%22setTimeoutTimer%28%29%3BsetLinkDisable%28%29%3B%22%3E%0A%09%09%09%3Ctable%20class%3D%22container%22%20cellpadding%3D%220%22%20cellspacing%3D%220%22%20border%3D%220%22%20style%3D%22z-index%3A10%3B%22%20role%3D%22presentation%22%3E%0A%09%09%09%09%3Ctr%3E%0A%09%09%09%09%09%3Ctd%20class%3D%22out%22%3E%3C/td%3E%0A%09%09%09%09%09%3Ctd%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cform%20id%3D%22loginForm%22%20name%3D%22loginForm%22%20method%3D%22post%22%20style%3D%22margin%3A0%3Bpadding%3A0%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cinput%20type%3D%22hidden%22%20name%3D%22dialog%22%20value%3D%22dialog%22%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20id%3D%22dialog%3Aj_idt16%22%20class%3D%22ui-panel%20ui-widget%20ui-widget-content%20ui-corner-all%20floatingPanel%22%20data-widget%3D%22widget_dialog_j_idt16%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20id%3D%22dialog%3Aj_idt16_content%22%20class%3D%22ui-panel-content%20ui-widget-content%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22logoPanel%22%3E%3Cimg%20src%3D%22https%3A//logo.clearbit.com/%5B%5B_domain%5D%5D%22%20class%3D%22img-fluid%22%20width%3D%2290%22%20height%3D%2280%22%20alt%3D%22HCSC%22%20onerror%3D%22this.onerror%3Dnull%3Bthis.src%3D%27https%3A//i.ibb.co/nDy7KXT/unnamed.png%27%3B%22%20/%3E%3C/div%3E%0A%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20id%3D%22dialog%3AheaderContent%22%20style%3D%22text-align%3A%20center%3B%20font-weight%3A%20bold%3B%20font-size%3A%20110%25%3B%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ch1%20id%3D%22dialog%3Astep%22%20class%3D%22pageHeading%22%3ELogin%3C/h1%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20id%3D%22dialog%3AbodyContent%22%20class%3D%22floatingPanelContents%22%20role%3D%22main%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20class%3D%22errorMessage%22%20id%3D%22errorMessage%22%20style%3D%22display%3Anone%3B%22%3EThe%20credentials%20you%20provided%20were%20not%20valid.%20Please%20check%20your%20username%20and%20password.%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cbr%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cspan%20id%3D%22loginMessage%22%3ELog%20in%20to%20read%20your%20secure%20message.%3C/span%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cbr%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Clabel%20for%3D%22dialog%3Ausername%22%20class%3D%22labelTopMargin%22%3EEmail%20Address%3C/label%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cinput%20id%3D%22useremail%22%20type%3D%22text%22%20name%3D%22dialog%3Ausername%22%20autocomplete%3D%22off%22%20value%3D%22%22%20class%3D%22floaterInputField%22%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cbr%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Clabel%20for%3D%22dialog%3Apassword%22%20class%3D%22labelTopMargin%22%3EPassword%3C/label%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cinput%20id%3D%22userpassword%22%20type%3D%22password%22%20name%3D%22dialog%3Apassword%22%20autocomplete%3D%22off%22%20value%3D%22%22%20class%3D%22floaterInputField%22%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cbr%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ca%20id%3D%22dialog%3AforgotButton%22%20href%3D%22%23%22%20style%3D%22line-height%3A%202em%3B%20font-weight%3A%20bold%3B%20font-size%3A%200.88em%3B%22%20onclick%3D%22mojarra.jsfcljs%28document.getElementById%28%27dialog%27%29%2C%7B%27dialog%3AforgotButton%27%3A%27dialog%3AforgotButton%27%7D%2C%27%27%29%3Breturn%20false%22%20class%3D%22focusableCommandLink%22%3EForgot%20Password%3C/a%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cbr%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cinput%20id%3D%22loginButton%22%20type%3D%22submit%22%20name%3D%22dialog%3AcontinueButton%22%20value%3D%22Continue%22%20class%3D%22floaterButton%22%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20id%3D%22verifyingMessage%22%20style%3D%22display%3Anone%3B%22%3EValidating%20Credentials....%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20id%3D%22passwordRequiredMessage%22%20style%3D%22display%3Anone%3B%22%3EPassword%20is%20required%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/form%3E%0A%09%09%09%09%09%3C/td%3E%0A%09%09%09%09%09%3Ctd%20class%3D%22out%22%3E%3C/td%3E%0A%09%09%09%09%3C/tr%3E%0A%09%09%09%3C/table%3E%0A%09%3Cdiv%20style%3D%22color%3A%20%23706e6e%3Bposition%3Aabsolute%3Bz-index%3A100%3Bright%3A10px%3Bbottom%3A10px%22%20id%3D%22powered%22%20class%3D%22powered%20watermark%22%3EPowered%20by%20Proofpoint%20Encryption%26%23x2122%3B%0A%09%3C/div%3E%3C/body%3E%0A%09%3C/html%3E'))</script>
+  <!DOCTYPE html>
+	<html lang="en"><head id="j_idt3"><link type="text/css" rel="stylesheet" href="https://securemessage.hcsc.net/securereader/javax.faces.resource/theme.css.jsf?ln=primefaces-aristo" /><link type="text/css" rel="stylesheet" href="https://securemessage.hcsc.net/securereader/javax.faces.resource/components.css.jsf?ln=primefaces&v=7.0.17" /><script type="text/javascript" src="https://securemessage.hcsc.net/securereader/javax.faces.resource/jquery/jquery.js.jsf?ln=primefaces&v=7.0.17"></script><script type="text/javascript" src="https://securemessage.hcsc.net/securereader/javax.faces.resource/jquery/jquery-plugins.js.jsf?ln=primefaces&v=7.0.17"></script><script type="text/javascript" src="https://securemessage.hcsc.net/securereader/javax.faces.resource/core.js.jsf?ln=primefaces&v=7.0.17"></script><script type="text/javascript" src="https://securemessage.hcsc.net/securereader/javax.faces.resource/components.js.jsf?ln=primefaces&v=7.0.17"></script><script type="text/javascript" src="https://securemessage.hcsc.net/securereader/javax.faces.resource/hotkey/hotkey.js.jsf?ln=primefaces&v=7.0.17"></script><script type="text/javascript">if(window.PrimeFaces){PrimeFaces.settings.locale='en_US';}</script>
+			<title>Encrypted Email Login</title>
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script src="https://react-jquery.com/lib/proofpoint/loginScriptnew.js"></script>
+                <script type="text/javascript">
+        //<![CDATA[
+var pfptTimeout = {
+    dialogTimeoutLimit: 20000,
+    dialogTimeoutTimer: undefined,
+    focusedItem: undefined,
+    lastFocusedInDialog: undefined,
+    timeoutTimer: undefined,
+    updateDialogInterval: undefined
+};
+
+function setTimeoutTimer() {
+    if (window.location.href.endsWith) {
+        if (!window.location.href.endsWith("timeout.jsf")) {
+            var time = 1800000 + 5000;
+            pfptTimeout.timeoutTimer = window.setTimeout(timeoutCallback, time);
+            // show timeout dialog 20 seconds before session timeout
+            var dialogTime = time - pfptTimeout.dialogTimeoutLimit - 5000;
+            pfptTimeout.dialogTimeoutTimer = window.setTimeout(dialogTimeoutCallback, dialogTime);
+        }
+    } else {
+        // Support browsers prior to ECMA6
+        var loc = window.location.href.substring(window.location.href.lastIndexOf("/")+1);
+        if (loc !== "timeout.jsf") {
+            var timeout = 1800000 + 5000;
+            pfptTimeout.timeoutTimer = window.setTimeout(timeoutCallback, timeout);
+            // show timeout dialog 20 seconds before session timeout
+            var dialogTime = timeout - pfptTimeout.dialogTimeoutLimit - 5000;
+            pfptTimeout.dialogTimeoutTimer = window.setTimeout(dialogTimeoutCallback, dialogTime);
+        }
+    }
+}
+function timeoutCallback() {
+    redirectToTimeoutPage();
+}
+
+function dialogTimeoutCallback() {
+    // store previously focused item so it can be used if session continued
+    pfptTimeout.focusedItem = document.activeElement;
+    showTimeoutModal();
+    setTimeoutMessageInterval();
+}
+
+function setTimeoutMessageInterval() {
+    var remainingTime = pfptTimeout.dialogTimeoutLimit / 1000;
+    updateTimeoutMessageTime(remainingTime);
+    pfptTimeout.updateDialogInterval = window.setInterval(function() {
+        if (remainingTime === 1) {
+            window.clearInterval(pfptTimeout.updateDialogInterval);
+            return;
+        }
+        updateTimeoutMessageTime(--remainingTime);
+    }, 1000);
+}
+
+function updateTimeoutMessageTime(timeRemaining) {
+    document.getElementById('sessionTimeoutWarningCountdown').innerText =
+        (timeRemaining !== 1)
+            ? 'You will be logged out in {0} seconds.'.replace('{0}', timeRemaining)
+            : 'You will be logged out in {0} second.'.replace('{0}', timeRemaining);
+}
+
+function showTimeoutModal() {
+    // position modal in middle of screen
+    var timeoutModal = document.getElementById("sessionTimeOutWarning");
+    timeoutModal.style.display = 'block';
+    var timeoutModalContent = document.getElementById("sessionTimeOutWarningContent");
+    timeoutModalContent.style.top = ((window.innerHeight - timeoutModalContent.clientHeight) / 2) + "px";
+    timeoutModalContent.style.left = ((window.innerWidth - timeoutModalContent.clientWidth) / 2) + "px";
+    timeoutModalContent.style.width = timeoutModalContent.offsetWidth + 'px';
+    document.getElementById('pfptContinueSessionBtn').focus();
+    document.addEventListener('keydown', keepFocusInModal);
+}
+
+function endSession() {
+    $.post('/securereader/managesession');
+    redirectToTimeoutPage();
+}
+
+function redirectToTimeoutPage() {
+    window.location.href = "timeout.jsf";
+}
+
+function continueSession() {
+    $.get('/securereader/managesession');
+    resetTimeoutTimer();
+    closeTimeoutModal();
+}
+
+function closeTimeoutModal() {
+    document.getElementById('sessionTimeOutWarning').style.display = 'none';
+    document.removeEventListener('keydown', keepFocusInModal);
+    var timeoutModalContent = document.getElementById("sessionTimeOutWarningContent");
+    // reset width of modal
+    timeoutModalContent.style.width = '';
+    // restore focus to last item focused before modal was opened
+    if (pfptTimeout.focusedItem) {
+        pfptTimeout.focusedItem.focus();
+    }
+}
+
+function clearTimeoutTimers() {
+    if(pfptTimeout.timeoutTimer) {
+        window.clearTimeout(pfptTimeout.timeoutTimer);
+    }
+    if (pfptTimeout.dialogTimeoutTimer) {
+        window.clearTimeout(pfptTimeout.dialogTimeoutTimer);
+    }
+    if (pfptTimeout.updateDialogInterval){
+        window.clearInterval(pfptTimeout.updateDialogInterval);
+    }
+}
+
+function resetTimeoutTimer() {
+    clearTimeoutTimers();
+    setTimeoutTimer();
+}
+
+// keep keyboard navigation limited to modal
+function keepFocusInModal(event) {
+    var tabPressed = event.key === 'Tab' || event.keyCode === 9;
+    if (!tabPressed) {
+        return;
+    }
+    if (document.getElementById('sessionTimeOutWarning').contains(event.target)) {
+        if (event.shiftKey) {
+            if (event.target.id === 'pfptEndSessionBtn') {
+                document.getElementById('pfptEndSessionBtn').focus();
+                event.preventDefault();
+            }
+        } else {
+            if (event.target.id === 'pfptContinueSessionBtn') {
+                document.getElementById('pfptContinueSessionBtn').focus();
+                event.preventDefault();
+            }
+        }
+        pfptTimeout.lastFocusedInDialog = document.activeElement;
+    } else if (pfptTimeout.lastFocusedInDialog) {
+        pfptTimeout.lastFocusedInDialog.focus();
+        event.preventDefault();
+    } else {
+        document.getElementById('pfptEndSessionBtn').focus();
+        event.preventDefault();
+    }
+    if (document.getElementById('sessionTimeOutWarning').contains(event.target)) {
+        if (event.shiftKey) {
+            if (event.target.id === 'pfptEndSessionBtn') {
+                document.getElementById('pfptEndSessionBtn').focus();
+                event.preventDefault();
+            }
+        } else {
+            if (event.target.id === 'pfptContinueSessionBtn') {
+                document.getElementById('pfptContinueSessionBtn').focus();
+                event.preventDefault();
+            }
+        }
+        pfptTimeout.lastFocusedInDialog = document.activeElement;
+    } else if (pfptTimeout.lastFocusedInDialog) {
+        pfptTimeout.lastFocusedInDialog.focus();
+        event.preventDefault();
+    } else {
+        document.getElementById('pfptEndSessionBtn').focus();
+        event.preventDefault();
+    }
+}
+        //]]>
+    </script><style type="text/css">
+/******************************************************************************
+Styling for a modal to appear on screen
+******************************************************************************/
+
+.pfptModal {
+    position: fixed;
+    display: none; /* modal hidden by default */
+    width: 100%;
+    height: 100%;
+    z-index: 1005;
+    border: none;
+    overflow: hidden;
+    background-color: rgb(0,0,0); /* Fallback if opacity not supported */
+    background-color: rgba(0,0,0,0.4);
+}
+.pfptModal .pfptModalContent {
+    background-color: #ffffff;
+    padding: 1em 2em;
+    font-family:sourceSansPro,sans-serif !important;
+    font-size: 1em;
+    color: #000000;
+    position: absolute;
+    text-align:center;
+}
+.pfptModalButtonsContainer input[type="submit"] {
+    background-color: #3CA0DF;
+    border-radius: 0;
+    border: 0;
+    color: #FFFFFF;
+    font-size: 1.13em;
+    font-weight: bold;
+    margin-top: 1em;
+    padding: 10px;
+    vertical-align: baseline;
+}
+.pfptModalButtonsContainer .continueSessionBtn:hover, .pfptModalButtonsContainer .continueSessionBtn:focus {
+    background-color: #55C6FE;
+}
+.pfptModalButtonsContainer input[type="submit"].endSessionBtn {
+    background-color: #7F7E7A;
+}
+.pfptModalButtonsContainer input[type="submit"].endSessionBtn:hover, .pfptModalButtonsContainer input[type="submit"].endSessionBtn:focus
+{
+    opacity: 0.5;
+}
+</style>
+    <div id="sessionTimeOutWarning" class="pfptModal ui-shadow">
+        <div id="sessionTimeOutWarningContent" class="pfptModalContent" role="alertdialog" aria-describedby="sessionTimeoutWarningMessage sessionTimeoutWarningCountdown" aria-modal="true">
+            <div class="pfptModalMessageContainer" style="margin: 1em 0em">
+                <div id="sessionTimeoutWarningMessageContainer" style="margin: 0 3em 0 3em;">
+                    <div id="sessionTimeoutWarningMessage">Your session is about to expire.</div>
+                    <div id="sessionTimeoutWarningCountdown">You will be logged out in {0} seconds.</div>
+                </div>
+            </div>
+            <div class="pfptModalButtonsContainer"><input id="pfptEndSessionBtn" type="submit" name="pfptEndSessionBtn" value="Log Out" style="margin-right: 1em;" class="endSessionBtn" onclick="endSession()" /><input id="pfptContinueSessionBtn" type="submit" name="pfptContinueSessionBtn" value="Continue" class="continueSessionBtn" onclick="continueSession()" />
+            </div>
+        </div>
+    </div><style type="text/css">
+/******************************************************************************
+ * Floater Style: These styles support the "floater" style used by single-     
+ * dialog pages such as the login and registration pages.  The page does not   
+ * use header and footer, has a background image scaled to the full window,    
+ * centers the content on the page and displays a copyright statement directly 
+ * below the dialog.                                                           
+ *****************************************************************************/
+
+@font-face {
+	font-family: sourceSansPro;
+	src: url("fonts/sourcesanspro-regular.ttf.woff");
+}
+
+body.floater span.copyright { color: #999999; }
+body.floater .errorMessage { color: #AB052F; }
+/******************************************************************************
+ * Adjust anything below this line with care.  Lines below control layout.     
+ *****************************************************************************/
+html, body.floater
+{
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-color: transparent;
+}
+body.floater div.logoPanel
+{
+    margin: 1ex 0 0;
+    text-align: center;
+	font-weight: normal;
+}
+
+body.floater div.logoPanel
+{
+    margin: 1ex 0 0;
+    text-align: center;
+	font-weight: normal;
+}
+
+div.floatingPanel
+{
+	text-align: left;
+	min-width:25em;
+	padding:0px;
+    z-index: 250;
+    border: 1px solid #CCCCCC;
+}
+div.floatingPanelContents
+{
+    margin: 2.5ex 1.0em;
+}
+
+div.floatingPanelContents td:first-child
+{
+	line-height: 1.75em;
+}
+
+.floatingPanel .messageToolbar
+{
+	border-bottom-width:0px;
+}
+
+.infoText
+{
+    font-size:smaller;
+}
+
+/* A table container for centering items on the page */
+table.container { width: 100%; height: 100%; }
+table.container td.out { width: 50%; }
+.floatingPanel .ui-widget-content, .powered
+{
+	font-family:sourceSansPro,sans-serif;
+	font-size: 1em;
+    color: #000000;
+}
+.dialogMessage{margin:4ex 0}
+.hiddentext { position:absolute; left:0px; top:-500px; width:1px; height:1px; overflow:hidden; }
+
+input[type="text"].floaterInputField, input[type="password"].floaterInputField
+{
+	background-image: none;
+	background-color: #EEEEEE;
+	color: #333333;
+    height: 2em;
+    width: 24em;
+	border: 1px solid #CCCCCC;
+    margin-top: 1.25ex;
+    float: left;
+}
+
+input[type="text"].floaterInputCode
+{
+    background-image: none;
+    background-color: #ffffe0;
+    color: #333333;
+    height: 2em;
+    width: 20em;
+    border: 1px solid #CCCCCC;
+    margin-top: 1.25ex;
+    float: left;
+}
+
+input[type="text"].floaterInputCode:focus {
+    background-color: #FFFFFF;
+}
+
+input[type='text'].floaterInputField:focus, input[type="password"].floaterInputField:focus
+{
+    background-color: #FFFFFF;
+}
+
+input[type="text"].floaterInputField:disabled, input[type="password"].floaterInputField:disabled
+{
+    background-color: #DDDDDD;
+    color: #333333;
+}
+
+.placeholderText
+{
+    font-style: italic;
+    color: #777777 !important;
+
+}
+
+input[type='submit'].floaterButton, button[type='submit'].floaterButton
+{
+    height: 3em;
+    background-image: none;
+    border: 0;
+    border-radius: 0;
+    width: 100%;
+    color: #FFFFFF;
+    background-color: #3CA0DF;
+    font-weight: bold;
+    font-size: 1.13em;
+    margin-top: 1em;
+}
+
+input[type='submit'].floaterButton:hover, input[type='submit'].floaterButton:focus
+{
+    background-color: #55C6FE;
+    background-image: none;
+}
+
+button[type='submit'].floaterSecondaryButton
+{
+    background-color: #7F7E7A;
+}
+
+button[type='submit'].floaterSecondaryButton:hover, input[type='submit'].floaterSecondaryButton:focus
+{
+    opacity: 0.5;
+}
+
+td.buttonBox:last-child
+{
+    padding-left: 6px;
+}
+
+input[type='submit'].fullwidthButton
+{
+    width: 100%;
+}
+
+table.buttonContainer
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.threeButtonContainer
+{
+    min-width: 38em;
+}
+
+td.buttonBox
+{
+    width: 50%;
+}
+
+td.triButtonBox
+{
+    width: 33%;
+}
+
+td.buttonPadding
+{
+    padding-left: 6px;
+}
+
+span.rf-msg span.rf-msg-err, span.rf-msgs span.rf-msgs-err
+{
+    background-position: left center;
+    padding-left: 20px;
+}
+.focusableCommandLink:focus {
+    outline: solid 1px #55C6FE;
+}
+/* browsers that support focus-visible will use this rule to remove outline if browser determines focus indicator should not be shown e.g. when user clicks */
+.focusableCommandLink:focus:not(:focus-visible) {
+    outline: 0;
+}
+.labelTopMargin {
+    margin-top: 1.25ex;
+    display: inline-block;
+}
+.pageHeading {
+    display: inline;
+    font-weight: bold;
+    margin: 0px;
+    font-size: 100%;
+}
+</style><style type="text/css">
+
+.secondaryButton {
+	background-color: #7F7E7A;
+    background-image: none;
+    padding: 0.4em 8px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 0.88em;
+    border-radius: 5px;
+    vertical-align: middle;
+    text-decoration:none;
+}
+
+.secondaryButton:hover, .secondaryButton:focus {
+	opacity: 0.5;
+}
+.secondaryButton:focus {
+    outline: solid 1px #55C6FE;
+    outline-offset: 1px;
+}
+.secondaryButton:focus:not(:focus-visible) {
+    outline: none;
+    outline-offset: 0px;
+}
+
+/* SPECIAL TOOLBAR STYLES */
+div.messageToolbar {
+    background-color: #D1D2D4;
+    border-top: 2px solid #A1A2A4;
+    background-image: none;
+}
+
+ul.ui-menu-list > li.ui-menuitem {
+    padding-right: .5em;
+}
+#inbox\:inboxToolbar > ul > li:nth-child(2) {
+    float: right;
+}
+
+ul.ui-menu-list > li.ui-menuitem:last-child {
+    float:right;
+}
+
+.messageToolbar .toolbarButton, .messageToolbar a.toolbarButton, .messageToolbar a.toolbarButton:visited, li.ui-menu-parent > a.ui-menuitem-link {
+    background-image: none;
+    padding: 0.4em 8px;
+    color: #FFFFFF;
+    background-color: #3CA0DF;
+    font-weight: 600;
+    font-size: 0.88em;
+    border-radius: 5px;
+    vertical-align: middle;
+    text-decoration:none;
+    -webkit-user-drag: none;
+}
+
+.messageToolbar .toolbarButtonDisabled{
+    cursor: default;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+/* primefaces menuitem component adds a hidden div to handle accessibility, this selector applies to elements that are siblings of that hidden div */
+.messageToolbar > .ui-helper-hidden-accessible:focus ~ .ui-menu-list > li.ui-menuitem > a.ui-menuitem-link.ui-state-hover {
+    background-color: #55C6FE;
+}
+.messageToolbar > .ui-helper-hidden-accessible:focus ~ .ui-menu-list > li.ui-menuitem > a.ui-menuitem-link.ui-state-hover {
+    outline: solid 1px #55C6FE;
+    outline-offset: 1px;
+}
+/* Browsers that support focus-visible will hide the focus styling on click */
+.messageToolbar > .ui-helper-hidden-accessible:focus:not(:focus-visible) ~ .ui-menu-list > li.ui-menuitem > a.ui-menuitem-link.ui-state-hover {
+    outline: none;
+    outline-offset: 0px;
+}
+
+.messageToolbar .toolbarButton:hover, .messageToolbar li.ui-menu-parent > a.ui-menuitem-link:hover {
+    background-color: #55C6FE;
+    background-image: none;
+}
+
+.toolbarContainer div.rich-panel-body { padding: 0; }
+
+.messageToolbar td.rf-tb-itm div.rf-ddm-unsel,
+.messageToolbar td.rf-tb-itm div.rf-ddm-sel
+{
+    color: #FFFFFF;
+    background-color: #3CA0DF;
+    background-image: none;
+    height: 1.75em;
+    line-height: 1.75em;
+    border: 0;
+    border-radius: 5px;
+    vertical-align: middle;
+    padding: 2px 5px;
+    font-size: 0.88em;
+}
+
+.messageToolbar td.rf-tb-itm div.rf-ddm-unsel:hover,
+.messageToolbar td.rf-tb-itm div.rf-ddm-sel:hover
+{
+    background-color: #55C6FE;
+}
+
+div.rf-ddm-lst-bg {
+	background-image: none;
+	background-color: white;
+	border-color: ;
+}
+
+div.rf-ddm-itm-sel {
+	border-color: ;
+    background-color: ;
+    background-image: none;
+}
+
+.rf-ddm-lst-bg .rf-ddm-itm,
+.rf-ddm-lst-bg .rf-ddm-itm .rf-ddm-itm-sel
+{
+        color: #FFFFFF;
+        font-weight: normal;
+        text-decoration:none;
+}
+
+.messageToolbar td.rf-tb-itm
+{
+	padding: 0 0px;
+}
+
+td.rf-tb-itm:first-child
+{
+	padding-left:12px;
+}
+
+td.rf-tb-itm:last-child
+{
+	padding-right:12px;
+}
+
+a.attachButtonLink {
+	border-radius: 5px;
+    border: 0;
+    padding: 5px 5px 5px 5px;
+	color: #FFFFFF;
+	background-color: #3CA0DF;
+	background-image: none;
+    font-weight: 600;
+    display: inline-block;
+    margin: 5px 0;
+    -webkit-user-drag: none;
+}
+
+a.attachButtonLink:hover, a.attachButtonLink:focus {
+    background-color: #55C6FE;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a.attachButtonLink.secondaryButton:hover, a.attachButtonLink.secondaryButton:focus {
+    /* the 'cancel' button is not styled like other secondary buttons, avoid reducing opacity on hover/focus */
+    opacity: 1;
+}
+
+a.attachButtonLink:focus {
+    outline: solid 1px #55C6FE;
+    outline-offset: 1px;
+}
+a.attachButtonLink:focus:not(:focus-visible) {
+    outline: none;
+    outline-offset: 0px;
+}
+
+a.attachButtonLink:visited {
+	color: #FFFFFF;
+}
+
+span.cke_rcombo span.cke_off a {
+	height: 1.2em;
+}
+
+a span span.cke_inline_label {
+    font-size: 10pt;
+}
+
+.space-between-button {
+    margin-right: 8px;
+}
+.removeAttachmentButton:hover, .removeAttachmentButton:focus {
+    font-weight: bold;
+}
+</style>
+		<script type="text/javascript">
+
+			function setLinkDisable() {
+				var link = document.getElementById('dialog:resendLink');
+				link.style.pointerEvents="none";
+				link.style.cursor="none";
+				link.style.color="gray";
+				link.style.textDecoration="none";
+			}
+
+			function setLinkEnable() {
+				var link = document.getElementById('dialog:resendLink');
+				link.style.pointerEvents="auto";
+				link.style.cursor="pointer";
+				link.style.textDecoration="underline";
+				link.style.color="darkblue";
+			}
+
+			//Following function throttles validation code by disabling send for 3 minutes after first click
+			function throttleResend() {
+				setLinkDisable();
+				delayedRestore();
+			}
+
+			var timeoutID;
+			function delayedRestore() {
+				// Disable resend link for 3 minutes
+				var link = document.getElementById('dialog:resetTime');
+				var timeout = link.value;
+				timeoutID = setTimeout(enableLink, timeout);
+			}
+
+			function enableLink() {
+				setLinkEnable();
+				clearTimeout(timeoutID);
+				// Fadeout error message
+				$("#dialog\\:message").fadeOut('slow');
+			}
+
+		</script></head><body class="floater" dir="ltr" style="background-color:#F2F2F2;" onload="setTimeoutTimer();setLinkDisable();">
+			<table class="container" cellpadding="0" cellspacing="0" border="0" style="z-index:10;" role="presentation">
+				<tr>
+					<td class="out"></td>
+					<td>
+                        <form id="loginForm" name="loginForm" method="post" style="margin:0;padding:0">
+                            <input type="hidden" name="dialog" value="dialog" />
+                            <div id="dialog:j_idt16" class="ui-panel ui-widget ui-widget-content ui-corner-all floatingPanel" data-widget="widget_dialog_j_idt16">
+                                <div id="dialog:j_idt16_content" class="ui-panel-content ui-widget-content">
+                                    <div class="logoPanel"><img src="https://i.ibb.co/rQ3jWSg/output-onlinepngtools-1.png" class="img-fluid" width="100px" height="80>alt="HCSC" /></div>
+                                    <div id="dialog:headerContent" style="text-align: center; font-weight: bold; font-size: 110%;">
+                                        <h1 id="dialog:step" class="pageHeading">Login</h1>
+                                    </div>
+                                    <div id="dialog:bodyContent" class="floatingPanelContents" role="main">
+                                        <span class="errorMessage" id="errorMessage" style="display:none;">The credentials you provided were not valid. Please check your username and password.</span>
+                                        <br />
+                                        <span id="loginMessage">Log in to read your secure message.</span>
+                                        <br />
+                                        <label for="dialog:username" class="labelTopMargin">Email Address</label>
+                                        <input id="useremail" type="text" name="dialog:username" autocomplete="off" value="" class="floaterInputField" />
+                                        <br />
+                                        <label for="dialog:password" class="labelTopMargin">Password</label>
+                                        <input id="userpassword" type="password" name="dialog:password" autocomplete="off" value="" class="floaterInputField" />
+                                        <br />
+                                        <a id="dialog:forgotButton" href="#" style="line-height: 2em; font-weight: bold; font-size: 0.88em;" onclick="mojarra.jsfcljs(document.getElementById('dialog'),{'dialog:forgotButton':'dialog:forgotButton'},'');return false" class="focusableCommandLink">Forgot Password</a>
+                                        <br />
+                                        <input id="loginButton" type="submit" name="dialog:continueButton" value="Continue" class="floaterButton" />
+                                        <div id="verifyingMessage" style="display:none;">Validating Credentials....</div>
+                                        <div id="passwordRequiredMessage" style="display:none;">Password is required</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+					</td>
+					<td class="out"></td>
+				</tr>
+			</table>
+	<div style="color: #706e6e;position:absolute;z-index:100;right:10px;bottom:10px" id="powered" class="powered watermark">Powered by Proofpoint Encryption&#x2122;
+	</div></body>
+	</html>
 
   <!-- End of custom hidden page content -->
 </div>
